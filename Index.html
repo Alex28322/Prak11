@@ -252,7 +252,7 @@
             </div>
             </div>
             </div>
-            <div class="recent product container">
+            <div class="recent product container page2">
                 <div class="product__article-box">
                 <h2 class="recent__article product-article">Вы недавно смотрели</h2>
 <a href="#" class="product__link-mob">См. все</a>
@@ -758,7 +758,7 @@
                     </div>
                 </div>
                 <div class="footer__text">
-                <div class="contacts__item">
+                <div class="contacts__item"> 
                     <div class="contacts__text">Каталог товаров</div>
                     <div class="contacts__text">Производители</div>
                     <div class="contacts__text">Доставка и оплата</div>
@@ -818,26 +818,8 @@
             </div>
         </footer>
     </div>
-    <script>    document.querySelector('.banner-blue__cross').addEventListener('click', function() {
-        document.querySelector('.banner-blue').classList.add('active');
-    });
-    const textBox = document.querySelector('.intro__text-box');
-const hideButton = document.querySelector('.hide');
-const openButton = document.querySelector('.open');
-
-// Hide the text and toggle button visibility when "hide" is clicked
-hideButton.addEventListener('click', () => {
-    textBox.style.display = 'none';
-    hideButton.style.display = 'none';
-    openButton.style.display = 'inline-block';
-});
-
-// Show the text and toggle button visibility when "open" is clicked
-openButton.addEventListener('click', () => {
-    textBox.style.display = 'block';
-    openButton.style.display = 'none';
-    hideButton.style.display = 'inline-block';
-});
+    <script>    
+    src = "./js/script.js"
 </script>
 </body>
 </html>
