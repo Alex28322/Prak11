@@ -793,6 +793,11 @@ input::placeholder {
   margin-top: 5px;
 }
 
+.product-text-link {
+  text-decoration: none;
+  color: black;
+}
+
 .product-text:hover {
   color: #2667B2;
 }
