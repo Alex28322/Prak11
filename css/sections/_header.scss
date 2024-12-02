@@ -1,7 +1,4 @@
-@font-face{
-    font-family: "Gotham Pro";
-    src: url("../Font.tff") format("tff");
-}
+
 body{
     font-family: "Gotham Pro", sans-serif;
 }
@@ -257,13 +254,29 @@ input::placeholder{
         font-weight: 400;
     }
 }
+.self__box-cart{
+    position: relative;
+}
+.incart {
+    background: url("../img/incart__background.svg") center no-repeat;
+width: 305px;
+height: 255px;
+padding: 30px 30px 20px 20px;
+display: none;
+flex-wrap: wrap;
+position: absolute;
+right: -30px;
+    top: 20px;
+&.active{
+    display: flex;
+}
+}
 .self__box {
 display: flex;
 flex-direction: column;
 align-items: center;
 height: auto;
 justify-content: space-between;
-
 }
 .note-1{
     background: url("../img/note-1.svg");
